@@ -11,7 +11,10 @@
     flex-flow: column nowrap;
 }
     .header{
-        background-color: #000;
+        background: url(../img/bg-3.jpg);
+        background-position: center;
+        background-attachment: contain();
+        background-size: covers;
         display: flex;
         flex-flow: column nowrap;
     }
